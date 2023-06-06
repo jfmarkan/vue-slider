@@ -15,11 +15,7 @@
     position: relative;
 }
 
-.carousel-item{
-    display: none;
-}
-
-.carrousel-item .active{
+div.carousel-item{
     display: block;
 }
 
@@ -32,13 +28,8 @@
 
 img.thumbnail{
     width: 100%;
-    height: calc(500px/4);
+    height: calc(500px/5);
     object-fit: cover;
-    filter: grayscale(1);
-}
-
-div.thumbnail-item.active{
-    display: none;
 }
 
 img.main-image{
@@ -53,7 +44,7 @@ div.img-description{
     backdrop-filter: blur(10px);
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
-    bottom:0;
+    bottom: 0;
 }
 
 h2,
@@ -76,7 +67,6 @@ p{
 
 .navigator-prev{
     top: 5%;
-    
 }
 
 .navigator-next{
