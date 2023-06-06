@@ -19,8 +19,8 @@
                     <div class="carousel-item">
                         <img :src="carousel[activeIndex].image" alt="Carousel slide image" class="main-image">
                         <div class="img-description" id="description-container">
-                            <h2 class="mx-3 my-2">Titulo</h2>
-                            <p class="ms-3">Texto</p>
+                            <h2 class="mx-3 my-2">{{ carousel[activeIndex].title }}</h2>
+                            <p class="ms-3">{{ carousel[activeIndex].text }}</p>
                         </div>
                     </div>
                 </div>
